@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Html tags part 2</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<footer>
+  <p>Author: Hege Refsnes</p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+
+<!-- <form> tag is used to create html form for user input
+<input> tag specifies an input field where the user can enter data.
+<label> tag defines a label for several elements-->
+		<h1>The User Info</h1>
+<fieldset>
+    <legend>Personalia:</legend>
+<form action="">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" ><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</fieldset>
+	
+<!--The <header> element represents a container for introductory content or a set of navigational links
+<hgroup> tag is used to surround a heading and one or more <p> elements-->
+<article>
+  <header>
+ <h1>How do you define happiness?</h1>
+    <p>Everyone wants to be happy in life</p>
+    <h2>They want to pursue their dreams</h2>
+    <p>But do they really get what they want?</p>
+  </header>
+</article>	
+
+<!--The <hgroup> tag is used to surround a heading and one or more <p> elements-->
+<hgroup>
+  <h2 class="northern big_font">Northern Lights</h2>
+  <h3>Eye catching view</h3>
+  <img src="image/lights.jpg" alt="Northern Lights">
+  <p>The land with the magical lights</p>
+</hgroup>
+<main>
+	<p class="big_font">It's more than dreamy!</p>
+
+<!--The <hr> tag defines a thematic break in an HTML page (e.g. a shift of topic)
+ <i> tag defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic-->
+<p id="para">The <i>northern lights</i>, or the <i>aurora borealis</i>, are beautiful dancing waves of light that have captivated people for <i>millennia</i>. But for all its beauty, this spectacular light show is a rather <i>violent</i> event. </p>
+<hr>
+<p>As Earth's magnetic field redirects the particles toward the poles — there are southern lights, too, which you can read about below — the dramatic process transforms into a cinematic atmospheric phenomenon that dazzles and fascinates scientists and skywatchers alike.</p>
+
+</main>
+
+<!--The <iframe> tag specifies an inline frame.An inline frame is used to embed another document within the current HTML document-->
+	<iframe src="https://en.wikipedia.org/wiki/Aurora">Aurora</iframe>
+
+	<!--The <kbd> tag is used to define keyboard input
+	The <mark> tag defines text that should be marked or highlighted-->
+		<p>You have press <kbd>Ctrl</kbd> + <kbd>C</kbd> to <mark>copy a content</mark></p>
+
+		<search>
+  <form>
+    <input name="fsrch" id="fsrch" placeholder="Search about Northern Lights">
+  </form>
+</search>
+
+<h3>Countries that can watch the Northern Lights:</h3>
+<menu>
+	<li>Iceland</li>
+<li>Finland</li>
+<li>Sweden</li>
+<li>Norway</li>
+</menu>
+
+<label for="disk_iceland">Chance to see the lights from Iceland:</label>
+<meter id="disk_ice" value="8" min="0" max="10">8 out of 10</meter><br>
+
+<label for="disk_sweden">Chance to see the lights from Sweden:</label>
+<meter id="disk_swe" value="0.6">65%</meter>
+
+<!-- <nav> defines a set of navigation links-->
+
+	<nav>
+		<a href="https://www.space.com/15139-northern-lights-auroras-earth-facts-sdcmp.html">What is Northern Lights?</a> |
+		<a href="https://capturetheatlas.com/best-places-to-see-northern-lights/">Best places to see Northern Lights</a> |
+	</nav>
+
+<!--<script type="text/javascript">document.write(Hello World)</script>
+<noscript>Script is not supported</noscript>-->
+<br>
+<br>
+<section id="cause">
+		<h3>
+		What causes the Northern Lights?
+	</h3>
+	<p>Auroras occur when charged particles (electrons and protons) collide with gases in Earth's upper atmosphere. Those collisions produce tiny flashes that fill the sky with colourful light.</p>
+</section>
+
+<!-- <select> is used to make a drop down lists
+<option> tag defines an option in a select list.
+optgroup tag is used to group related options in a drop-down list-->
+
+	<h3>Places you wish to visit:</h3>
+	<select>
+		<optgroup label="Europian Countries">
+		<option >Norway</option>
+		<option>Denmark</option>
+    <option>Finland</option>
+    <optgroup label="Asian Countries">
+		<option >Maldives</option>
+		<option>Srilanka</option>
+		<option>Nepal</option>
+	</select>
+
+
+			<pre>
+	Auroras constantly change shape
+      A Norwegian scientist was the first to explain the aurora phenomenon
+      <small>Hope the info helped you</small>
+     </pre>
+		
+	
+
+<label for="file">Downloading progress:</label>
+<progress id="file" value="78" max="100"> 32% </progress>
+
+	<p><strong>John Wooden said: </p></strong>
+<q>Don't give up on your <span style ="color: blue;font-weight:bold">dreams</span>, or your dreams will give up on you</q><br>
+
+<s>Only 2 days left for 2024</s>
+<p>Happy New Year!</p><br>
+
+<p>Message from my computer:</p>
+<samp>File not found.<br>Press F1 to continue</samp>
+
+<p>Do you kniow the reaction of Na<sub>2</sub>O<sub>3</sub> and HSO<sub>4</sub><sup>-</sup></p>
+
+<textarea rows="5" cols="60">
+	Northern Lights can be bright and brilliant in colour, they can look soft and gentle, they can simply be a glow in the sky. Some nights they are so bright and bold, others they are only visible by camera. We almost never know exactly what we will get on different nights. Every single day they are different.
+</textarea>
+
+<br>
+<p>The strongest lights <u>tend</u> to appear between <time>9.00</time> to <time>2.00</time> though the best sightings often occur between <time>11.00</time> and midnight.</p>
+
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+<video controls> 
+	<source src="videoes/lights.mp4" type="video/mp4">
+	</video>
+
+<p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

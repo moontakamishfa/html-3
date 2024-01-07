@@ -1,0 +1,33 @@
+h1{
+	border: solid steelblue 2px; /*Setting the border*/
+	border-radius: 8px;
+	font-size: 30px;
+	color: rebeccapurple;
+	background-color: seashell;
+}
+.northern{
+	border: solid forestgreen;
+	background-color:lightblue;
+	margin: 0 0 50px 0;
+}
+.big_font{
+	font-size: 30px;
+	}
+#para{
+	width: 500px;
+height:70px;
+background-color:rgba(0, 128, 0, 0.3) /*#236571*/;
+padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+#cause{
+	width: 300px;
+height:130px;
+background-color:powderblue;
+padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
